@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+CTYPE html>
 <html>
   <head>
     <title>Geolocation</title>
@@ -33,7 +33,6 @@ html, body {
           zoom: 6
         });
         infoWindow = new google.maps.InfoWindow;
-
         // Try HTML5 geolocation.
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(function(position) {
@@ -41,7 +40,6 @@ html, body {
               lat: position.coords.latitude,
               lng: position.coords.longitude
             };
-
             infoWindow.setPosition(pos);
             infoWindow.setContent('Location found.');
             infoWindow.open(map);
@@ -54,7 +52,6 @@ html, body {
           handleLocationError(false, infoWindow, map.getCenter());
         }
       }
-
       function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         infoWindow.setPosition(pos);
         infoWindow.setContent(browserHasGeolocation ?
@@ -68,4 +65,4 @@ html, body {
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-NJNJ1z2IBJWtiFFy1eShNj_AcuJU76A&callback=initMap">
     </script>
   </body>
-</html>
+
