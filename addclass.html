@@ -47,7 +47,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <a href="Feed.html" class="w3-bar-item w3-button w3-padding"></i>  Overview</a>
     <a href="myclass.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-futbol-o fa-fw"></i>  Your Soccer Class</a>
     <a href="addclass.html" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-plus-square-o fa-fw"></i>  Add a New Class</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user-plus fa-fw"></i> Join a Class</a>
+    <a href="joinclass.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user-plus fa-fw"></i> Join a Class</a>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  News</a>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i>  General</a>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  History</a>
@@ -63,7 +63,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
   <!-- Header -->
   <header class="w3-container" style="padding-top:22px">
-    <h5><b><i class="fa fa-dashboard"></i> My Dashboard</b></h5>
+    <h5><b><i class="fa fa-dashboard"></i> Add Class</b></h5>
   </header>
 
 <button onclick="document.getElementById('id01').style.display='block'">SIGN UP</button>
@@ -73,28 +73,23 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
   <form class="modal-content animate" action="/action_page.php">
     <div class="container">
-      <label><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
+      <label><b>Class Name</b></label>
+      <input type="text" placeholder="Enter Class Name" name="email" required>
 <br></br>
 
-      <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label><b>Class Description</b></label>
+      <input type="password" placeholder="Enter Description" name="psw" required>
 <br></br>
-      <label><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <label><b>Credentials</b></label>
+      <input type="password" placeholder="Ex. two years of lessons, etc." name="psw-repeat" required>
 <br></br>
-<input type="checkbox" checked="checked"> Remember me
  <div class="clearfix">
         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Sign Up</button>
+        <button type="submit" class="signupbtn">Create Class</button>
       </div>
     </div>
   </form>
 </div>
-
-
-
-  <!-- End page content -->
 </div>
 
 </body>

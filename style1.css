@@ -2,6 +2,18 @@
    position: relative; 
    width: 100%; /* for IE 6 */
 }
+button {
+    background-color: #C50BD6;
+    color: white;
+    padding: 14px 20px;
+    font-size: 30px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    display: block;
+}
+
 
 h2 { 
    position: absolute; 
