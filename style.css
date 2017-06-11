@@ -5,7 +5,7 @@ font-family: "Open Sans", sans-serif;
   margin-left: 200px;
 }
 #content {
-  float: right;
+  margin-left: 300px;
   width: 780px;
   height: 800px;
 }
@@ -47,11 +47,14 @@ button {
 }
 
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn,.signupbtn {
+.cancelbtn {
     float: left;
     width: 30%;
 }
-
+.signupbtn {
+	float: right;
+	width: 30%;
+}
 /* Add padding to container elements */
 .container {
     padding: 16px;
