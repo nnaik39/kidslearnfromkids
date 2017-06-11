@@ -1,0 +1,17 @@
+#wrapper {
+  margin-left: 200px;
+}
+#content {
+  float: right;
+  width: 680px;
+  background-color: #6BDAFF;
+}
+#sidebar {
+  float: left;
+  width: 700px;
+  margin-left:-200px;
+  background-color: #ABEAFF;
+}
+#cleared {
+  clear: both;
+}
