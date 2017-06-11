@@ -1,31 +1,20 @@
 <!DOCTYPE html>
 <head>
 	<title>Kids Learn From Kids</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style1.css">
 </head>
 <body>
-	<div id = "wrapper">
-		<div id="sidebar">
-			<h1>Welcome!</h1>
-			<p>Kids Learn From Kids connects aspiring tutors to eager students. finish description later</p>
-		</div>
-		<div id="content">
-			<h2 style="text-align:center">Login</h2>
-			
-		<on class="loginform cf">
-<form name="login" action="index_submit" method="get" accept-charset="utf-8">
-    <label for="usermail">Email</label>
-    <input type="email" name="usermail" placeholder="yourname@email.com" required>
-<br></br>
-	<label for="password">Password</label>
-    <input type="password" name="password" placeholder="password" required>
-	<br></br>
-    <input type="submit" value="Login">
-</form>
-</section>
-<h2 style="text-align:center">Don't have an account? Create one <a href="">here</a></h2>
+<div class="img-wrapper">
+    <img class="img-responsive" src="background.jpg">
+    <div class="img-overlay">
+	<h2>Kids Learn From Kids</h2>
+      <button class="btn btn-md btn-success" id="myButton">SIGN IN</button>
+    </div>
 </div>
-		<div id="clear"></div>
-	</div>
 </body>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "login.html";
+    };
+</script>
 </html>
